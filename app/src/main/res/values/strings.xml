@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sistema Predial</string>
+    <string name="login_message">Insira seu Login</string>
+    <string name="password_message">Insira sua Senha</string>
+    <string name="login_button">Login</string>
+    <string name="cadastrar_usuario">Cadastrar Usuário</string>
+    <string name="cadastrar_empresa">Cadastrar Empresa</string>
+    <string name="gerar_arq_acesso">Gerar Arquivo</string>
+    <string name="reconfg_ar_cond">Reconfigurar AC</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.usjt.arqdesis.sistemapredial.SistemaPredialMainActivity">
+
+</android.support.constraint.ConstraintLayout>
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.usjt.arqdesis.sistemapredial.SistemaPredialMainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/cadastrar_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/cadastrar_usuario"
+        android:onClick="cadastrarUsuario"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/cadastrar_empresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/cadastrar_empresa"
+        android:enabled="false"
+        android:onClick="cadastrarEmpresa"/>
+
+    <Button
+        android:id="@+id/gerar_arq_acesso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/gerar_arq_acesso"
+        android:enabled="false"
+        android:onClick="gerarArquivoAcesso"/>
+
+    <Button
+        android:id="@+id/reconfg_ar_cond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/reconfg_ar_cond"
+        android:enabled="false"
+        android:onClick="reconfgArCond"/>
+<!--
+
+    <Button
+        android:id="@+id/cadastrar_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/cadastrar_usuario"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/cadastrar_empresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/cadastrar_empresa"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/gerar_arq_acesso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/gerar_arq_acesso"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/reconfg_ar_cond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/reconfg_ar_cond"
+        android:enabled="true"/>
+-->
+
+</LinearLayout>
